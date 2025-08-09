@@ -21,3 +21,4 @@ line = "Once upon a time.....in Hollywood"
 print(line[3] + " " + line[5])
 print(line[-3] + " " + line[-5])
 print(line[2:8])
+print(line[1:-1])
