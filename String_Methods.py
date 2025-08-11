@@ -2,15 +2,19 @@
 course = "Python for Noobs"
 
 # Finding Length
-# print(len(course))
+print(len(course))
 
 # Making Upper Case (It Copies the Original and Does not change the Original Variable)
-# print(course.upper())
-# print(course)
+print(course.upper())
+print(course)
 
 # Making Lower Case (It Copies the Original and Does not change the Original Variable)
-# print(course.lower())
-# print(course)
+print(course.lower())
+print(course)
+
+# Making Title Case (It Copies the Original and Does not change the Original Variable)
+print(course.title())
+print(course)
 
 # Find Method Helps to Find a Particular Character or a Sequence of Characters in a String
 # Also we need to remember that "find" method is case sensitive
