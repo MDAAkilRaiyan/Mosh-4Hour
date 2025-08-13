@@ -14,3 +14,6 @@ print(x * y)
 
 # Division
 print(x / y)
+
+# Use of %
+print(x % y)
