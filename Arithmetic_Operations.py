@@ -1,6 +1,6 @@
 # Arithmetic Operations
 
-x = 14
+x = 123
 y = 7
 
 # Addition
@@ -13,7 +13,11 @@ print(x - y)
 print(x * y)
 
 # Division
+# To Get Fractional Results
 print(x / y)
 
-# Use of %
+# To Get Integer Results
+print(x // y)
+
+# Use of Modulus %
 print(x % y)
