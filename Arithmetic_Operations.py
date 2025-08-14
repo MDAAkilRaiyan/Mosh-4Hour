@@ -1,7 +1,7 @@
 # Arithmetic Operations
 
-x = 123
-y = 7
+x = 9
+y = 5
 
 # Addition
 print(x + y)
@@ -21,3 +21,6 @@ print(x // y)
 
 # Use of Modulus %
 print(x % y)
+
+# Use of Power ^
+print(x ** y)
