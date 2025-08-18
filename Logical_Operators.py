@@ -22,7 +22,7 @@ else:
     print("Not a Superhero")
 
 
-# NOT Operation, simply changing one variable from True to False
+# NOT Operation, simply changing one variable from True to False and Vice-Versa
 
 got_good_marks = True
 failed_at_any_subject = False
