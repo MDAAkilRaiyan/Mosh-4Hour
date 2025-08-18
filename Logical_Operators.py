@@ -20,3 +20,15 @@ if can_fight_crime or wears_a_cape:
 
 else:
     print("Not a Superhero")
+
+
+# NOT Operation, simply changing one variable from True to False
+
+got_good_marks = True
+failed_at_any_subject = False
+
+if got_good_marks and not failed_at_any_subject:
+    print("Is the topper of the class")
+
+else:
+    print("Is not the Topper of the class")
