@@ -1,4 +1,11 @@
 # Comparison Operators
+# >
+# <
+# ==
+# >=
+# <=
+# !=
+
 temperature = int(input("What's Today's Temperature? "))
 
 if temperature > 30:
