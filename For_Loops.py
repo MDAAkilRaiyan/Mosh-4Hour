@@ -12,3 +12,7 @@ for i in [1, 2, 3, 4, 5, 6, 7, 8, 9]:
 # Using Range Function for creating a range of numbers
 for r in range(200):
     print(r)
+
+# For a shorter range where the last number is excluded
+for ra in range(7, 16):
+    print(ra)
