@@ -16,3 +16,6 @@ for r in range(200):
 # For a shorter range where the last number is excluded
 for ra in range(7, 16):
     print(ra)
+# If we want to skip 'x' steps at a time
+for ra in range(7, 16, 2):
+    print(ra)
