@@ -1,3 +1,8 @@
 # Lists
-names = ['Raiyan', 'Sami', 'John', 'Randy']
+names = ['Raiyan', 'Sami', 'John', 'Randy', 'Styles']
 print(names)
+print(names[0])
+print(names[1])
+print(names[2])
+print(names[3])
+print(names[4])
