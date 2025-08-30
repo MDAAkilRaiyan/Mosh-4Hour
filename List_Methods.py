@@ -23,8 +23,16 @@ print(f'Removed List = {numbers}')
 numbers.pop()
 print(f'Popped List = {numbers}')
 
+
+# Method to Check if an Item is in the list
+
+# Index Method - returns the index number of the first occurrence of the target number
+print(numbers.index(76))
+
+# in Operator - Returns true or false if any item is available in the list
+print(76 in numbers)
+print(77 in numbers)
+
 # To clear the whole list item
 numbers.clear()
 print(f'Cleared List = {numbers}')
-
-# Method to Check if an Item is in the list
