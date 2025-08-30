@@ -14,5 +14,7 @@ numbers.insert(0, 37)
 print(f'Inserted List = {numbers}')
 
 # Method to Remove Items
+numbers.remove(23)
+print(f'Removed List = {numbers}')
 
 # Method to Check if an Item is in the list
