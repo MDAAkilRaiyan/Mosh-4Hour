@@ -10,3 +10,8 @@ print(matrix)
 
 # Accessing 2D List Items
 print(matrix[0][0])
+
+# Modifying Matrix
+matrix[1][2] = 5.5
+print(matrix)
+print(matrix[1][2])
