@@ -15,3 +15,9 @@ print(matrix[0][0])
 matrix[1][2] = 5.5
 print(matrix)
 print(matrix[1][2])
+
+
+# Nested Loops in Matrix
+for row in matrix:
+    for item in row:
+        print(item)
