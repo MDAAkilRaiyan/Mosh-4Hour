@@ -1,6 +1,6 @@
 # List Methods
 
-numbers = [10, 45, 76, 31, 69]
+numbers = [10, 45, 76, 31, 69, 45, 45]
 print(f'Original List = {numbers}')
 
 # Method to Add New Items
@@ -32,6 +32,9 @@ print(numbers.index(76))
 # in Operator - Returns true or false if any item is available in the list
 print(76 in numbers)
 print(77 in numbers)
+
+# Method to Check the Number of occurrence of an item in a list
+print(f'Total number of 45 in the list is {numbers.count(45)}')
 
 # To clear the whole list item
 numbers.clear()
