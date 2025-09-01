@@ -36,6 +36,10 @@ print(77 in numbers)
 # Method to Check the Number of occurrence of an item in a list
 print(f'Total number of 45 in the list is {numbers.count(45)}')
 
+# Method to Sort My List
+numbers.sort()
+print(f"Sorted List = {numbers}")
+
 # To clear the whole list item
 numbers.clear()
 print(f'Cleared List = {numbers}')
