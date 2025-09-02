@@ -36,10 +36,16 @@ print(77 in numbers)
 # Method to Check the Number of occurrence of an item in a list
 print(f'Total number of 45 in the list is {numbers.count(45)}')
 
+# Copy Method - useful to just keep a copy of the original list
+numbers2 = numbers.copy()
+print(numbers2)
+
 # Method to Sort My List
+# Ascending
 numbers.sort()
 print(f"Sorted List = {numbers}")
 
+# Descending
 numbers.reverse()
 print(f"Sorted List In Reverse = {numbers}")
 
