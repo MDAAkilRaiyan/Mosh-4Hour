@@ -40,6 +40,10 @@ print(f'Total number of 45 in the list is {numbers.count(45)}')
 numbers.sort()
 print(f"Sorted List = {numbers}")
 
+numbers.reverse()
+print(f"Sorted List In Reverse = {numbers}")
+
+
 # To clear the whole list item
 numbers.clear()
 print(f'Cleared List = {numbers}')
