@@ -1,4 +1,4 @@
-# Unpacking
+# Unpacking - Can be used for both Tuples and List
 
 coordinates = (1, 2, 3)
 # Normal Style
