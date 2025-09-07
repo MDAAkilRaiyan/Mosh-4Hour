@@ -14,5 +14,9 @@ customer = {
 print(customer)
 
 # To access each key, we need to use [] brackets
-
+# Also it is Case Sensitive, so need to pay attention while calling a Key
 print(customer["name"])
+
+# To avoid the case sensitive error, we can use the 'get' method which return a 'None' value if a key is not found in the Dictionary
+print(customer.get("gender"))
+print(customer.get("age"))
