@@ -20,3 +20,6 @@ print(customer["name"])
 # To avoid the case sensitive error, we can use the 'get' method which return a 'None' value if a key is not found in the Dictionary
 print(customer.get("gender"))
 print(customer.get("age"))
+
+# If there isn't a key available, then we can create and assign value to it directly using get method
+print(customer.get("gender", 'Male'))
