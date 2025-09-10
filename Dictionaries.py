@@ -21,7 +21,7 @@ print(customer["name"])
 print(customer.get("gender"))
 print(customer.get("age"))
 
-# If there isn't a key available, then we can create and assign value to it directly using get method
+# If there a key isn't available, then we can create and assign value to it directly using get method
 print(customer.get("gender", 'Male'))
 
 

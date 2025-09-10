@@ -13,9 +13,18 @@ digit_mapping = {
     "9": "Nine",
 }
 
+# My Solution
 Phone_Word = ""
 
 for x in phone:
     Phone_Word = Phone_Word + digit_mapping[x] + " "
 
 print(Phone_Word)
+
+# Mosh Solution
+Output = ""
+
+for ch in phone:
+    Output += digit_mapping.get(ch, "Wrong Input") + " "
+
+print(Output)
