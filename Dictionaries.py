@@ -23,3 +23,8 @@ print(customer.get("age"))
 
 # If there isn't a key available, then we can create and assign value to it directly using get method
 print(customer.get("gender", 'Male'))
+
+
+# We can also update a value of any key
+customer["age"] = "49"
+print(customer)
