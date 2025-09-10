@@ -28,3 +28,7 @@ print(customer.get("gender", 'Male'))
 # We can also update a value of any key
 customer["age"] = "49"
 print(customer)
+
+# Also we can add new key to the dictionaries
+customer["Status"] = "G.O.A.T."
+print(customer)
